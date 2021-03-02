@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Practica4-TheCheezery</string>
+    <string name="welcome">Welcome to The Cheezery!</string>
+    <string name="description">Home of the most wonderful desserts ever seen (and tested) by the human being.</string>
+    <string name="get_started">Get started!</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="Terms">I have read and accept terms and conditions of The Chezzery</string>
+    <string name="sign_in">Sign in</string>
+
+    <!-- fonts families -->
+    <string name="light">sans-serif-light</string>
+    <string name="condensed">sans-serif-condensed</string>
+    <string name="thin">sans-serif-thin</string>
+    <string name="medium">sans-serif-medium</string>
+    <string name="regular">sans-serif</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/grupo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/light"
+        android:text="Our menú"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <Button
+            android:id="@+id/btn_cold_drinks"
+            android:layout_width="113dp"
+            android:layout_height="match_parent"
+            android:text="Cold drinks" />
+
+        <Button
+            android:id="@+id/btn_hot_drinks"
+            android:layout_width="113dp"
+            android:layout_height="match_parent"
+            android:text="Hot drinks" />
+
+        <Button
+            android:id="@+id/btn_sweets"
+            android:layout_width="114dp"
+            android:layout_height="match_parent"
+            android:text="Sweets" />
+
+        <Button
+            android:id="@+id/btn_salties"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="Salties" />
+
+        <Button
+            android:id="@+id/btn_combos"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="Combos" />
+
+        <Button
+            android:id="@+id/btn_personalized"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="To taste" />
+    </GridLayout>
+</LinearLayout>
